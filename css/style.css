@@ -14,8 +14,7 @@ h1 {
     font-family: VT323;
     font-size: 65px;
     color: rgb(234,50,35);
-    text-shadow: white;
-
+    background-color: rgb(242,209,77);
 }
 
 .container {
