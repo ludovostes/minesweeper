@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(image/background.png);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1 {
+    font-family: VT323;
+    font-size: 65px;
+}
+
+.container {
+    background: gainsboro;
+    width: 400px;
+    height: auto;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 10px ridge cadetblue;
+}
+
+.item {
+    background:gainsboro;
+    display: flex;
+    justify-content: center;
+    border-style: dotted dotted;
+    font-family: VT323;
+    font-size: 45px;
+}
+
+.item1 {
+    background:gainsboro;
+    display: flex;
+    justify-content: center;
+    border-style: dotted dotted;
+    font-family: VT323;
+    font-size: 45px;
+    color: crimson;
+}
+
+.item2 {
+    background:gainsboro;
+    display: flex;
+    justify-content: center;
+    border-style: dotted dotted;
+    font-family: VT323;
+    font-size: 45px;
+    color: darkgreen;
+}
+
+.item3 {
+    background:gainsboro;
+    display: flex;
+    justify-content: center;
+    border-style: dotted dotted;
+    font-family: VT323;
+    font-size: 45px;
+    color: darkslateblue;
+}
+
+.block {
+    background:rgb(171, 226, 226);
+    border: 5px outset cadetblue;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+}
+
+.block:hover {
+    background:rgb(140, 224, 224);
+    border: 5px inset cadetblue;
+    box-sizing: border-box;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+div[class^="item"]{
+    box-sizing: border-box;
+    border: 1px dashed cadetblue;
+    width: 50px;
+    height: 50px;
+}
