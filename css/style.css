@@ -4,29 +4,32 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-image: url(image/background.png);
+    background-image: url(../image/background.png);
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 h1 {
     font-family: VT323;
     font-size: 65px;
+    color: rgb(234,50,35);
+    text-shadow: white;
+
 }
 
 .container {
-    background: gainsboro;
     width: 400px;
     height: auto;
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 10px ridge cadetblue;
+    border: 20px ridge rgb(130,190,162);
 }
 
 .item {
-    background:gainsboro;
+    background: rgb(169,206,193);
     display: flex;
     justify-content: center;
     border-style: dotted dotted;
@@ -35,37 +38,37 @@ h1 {
 }
 
 .item1 {
-    background:gainsboro;
+    background: rgb(169,206,193);
     display: flex;
     justify-content: center;
     border-style: dotted dotted;
     font-family: VT323;
     font-size: 45px;
-    color: crimson;
+    color: rgb(186,74,83);
 }
 
 .item2 {
-    background:gainsboro;
+    background: rgb(169,206,193);
     display: flex;
     justify-content: center;
     border-style: dotted dotted;
     font-family: VT323;
     font-size: 45px;
-    color: darkgreen;
+    color: rgb(73,157,109);
 }
 
 .item3 {
-    background:gainsboro;
+    background: rgb(169,206,193);
     display: flex;
     justify-content: center;
     border-style: dotted dotted;
     font-family: VT323;
     font-size: 45px;
-    color: darkslateblue;
+    color: rgb(98,135,180);
 }
 
 .block {
-    background:rgb(171, 226, 226);
+    background:rgb(130,190,162);
     border: 5px outset cadetblue;
     box-sizing: border-box;
     width: 50px;
@@ -73,7 +76,7 @@ h1 {
 }
 
 .block:hover {
-    background:rgb(140, 224, 224);
+    background:rgb(130,190,162);
     border: 5px inset cadetblue;
     box-sizing: border-box;
 }
